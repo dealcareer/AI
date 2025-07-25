@@ -1,4 +1,3 @@
-# AI
 # 🎓 UP Police Programmer & LT Grade Teacher Preparation Portal
 
 A modern web-based preparation platform focused on the syllabus comparison, study videos, AI-generated summaries, and MCQs for UP Police Programmer Grade-2 and UP LT Grade Computer Science Teacher exams.
@@ -34,8 +33,74 @@ A modern web-based preparation platform focused on the syllabus comparison, stud
 
 ### 📥 1. Clone the Repository
 
+bash
+git clone https://github.com/dealcareer/lt-police-computer-prep.git
+cd lt-police-computer-prep
+
+cd C:/xampp/htdocs/lt-police-computer-prep
+composer require google/cloud
+ Test Working
+Visit: http://localhost/up_job/
+
+Click on any video → View summary or generate via AI
+
+MCQs load & respond dynamically
+
+Summary auto-saves to database
+📁 up_job/
+│
+├── 📂 ajax/
+│   ├── generate_summary.php
+│   └── fetch_mcq.php
+│
+├── 📂 includes/
+│   ├── header.php
+│   └── footer.php
+│
+├── 📂 pages/
+│   ├── police-syllabus.php
+│   ├── teacher-syllabus.php
+│   ├── comparison.php
+│   ├── study_video.php
+│   └── study_plan.php
+│
+├── watch.php
+├── index.php
+├── database.sql
+└── README.md
+
+🧠 Built With
+PHP + MySQL
+
+Bootstrap 5
+
+Google Gemini AI API
+
+YouTube Data API v3
+
+AJAX (for MCQs & Summary)
+
+Font Awesome & Bootstrap Icons
+
+🙌 Contribute
+Pull requests are welcome! Please follow the issue template.
+
+📢 License
+Contribute
+
+🔗 Live Demo (Optional)
+🔴 Coming soon: Live deployment on Vercel or Hostinger
+
+📣 Keywords for GitHub & SEO
+UP Police Programmer, LT Grade Computer Teacher, Syllabus Comparison, AI Study Tool, Gemini API PHP, UPPSC Preparation, MCQ Generator PHP, Study Plan, YouTube Education Crawler, Government Exam Portal
+
+✅ Ready-to-Paste Summary (For GitHub main project description):
+
+A modern exam preparation web portal with AI-based MCQ generation, video study integration, and syllabus comparison for UP Government job exams. Built with PHP, MySQL, AJAX, and Gemini API. Open-source and easy to install on localhost with XAMPP.
 
 
+📷 Screenshots (Add Later)
+📌 Home | 📊 Comparison | 🎥 Video | 🧠 MCQ Quiz | 📘 Summary
 
 <img width="1366" height="768" alt="Screenshot (151)" src="https://github.com/user-attachments/assets/adb1943a-6050-44b3-a74c-b79b96ccdf17" />
 <img width="1366" height="768" alt="Screenshot (164)" src="https://github.com/user-attachments/assets/88dd7218-9f84-4ec8-98f1-ff788db9e3ec" />
