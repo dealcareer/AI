@@ -1,0 +1,14 @@
+RewriteEngine On
+RewriteBase /up_job/
+
+########## 1. Redirect index.php → /
+RewriteCond %{THE_REQUEST} /up_job/index\.php [NC]
+RewriteRule ^index\.php$ /up_job/ [R=301,L]
+
+########## 2. Internally rewrite /page → /page.php (only if .php file exists)
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^([^\./]+)$ $1.php [L]
+
+########## 3. watch.php?slug=... → /watch/slug
+RewriteRule ^watch/([a-zA-Z0-9\-]+)/?$ watch.php?slug=$1 [L,QSA]
