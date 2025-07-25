@@ -34,9 +34,7 @@ A modern web-based preparation platform focused on the syllabus comparison, stud
 
 ### 📥 1. Clone the Repository
 
-```bash
-git clone https://github.com/dealcareer/up-prep-portal.git
-cd up-prep-portal
+
 
 
 <img width="1366" height="768" alt="Screenshot (151)" src="https://github.com/user-attachments/assets/adb1943a-6050-44b3-a74c-b79b96ccdf17" />
