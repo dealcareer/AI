@@ -1,5 +1,44 @@
 # AI
-This PHP-based web application allows you to efficiently manage and process YouTube video content, extracting transcripts, generating AI-powered summaries, and creating multiple-choice questions (MCQs) for educational or informational purposes. It offers both automated and manual workflows for AI processing 
+# 🎓 UP Police Programmer & LT Grade Teacher Preparation Portal
+
+A modern web-based preparation platform focused on the syllabus comparison, study videos, AI-generated summaries, and MCQs for UP Police Programmer Grade-2 and UP LT Grade Computer Science Teacher exams.
+
+> 🇮🇳 Designed especially for Hindi + English medium aspirants.
+
+---
+
+## 🚀 Features
+
+- 📊 **Syllabus Comparison Table** (with tick/cross visual difference)
+- 🎥 **YouTube Video Study Material**
+- 🧠 **AI (Gemini API) Generated Summary & MCQs**
+- 📝 **MCQ Practice with Explanations**
+- 🎯 **Study Plan & Smart Tips**
+- 📚 **Bilingual Interface (English & Hindi)**
+
+---
+
+## 🛠️ Installation Guide (Localhost using XAMPP)
+
+### ✅ Requirements
+
+- 🧱 PHP 8.0+
+- 🐬 MySQL 5.7+
+- 🌐 Composer (for Gemini API)
+- 🧪 XAMPP Server (Recommended)
+- 🧠 Google Gemini API Key
+
+---
+
+## ⚙️ Step-by-Step Setup
+
+### 📥 1. Clone the Repository
+
+```bash
+git clone https://github.com/dealcareer/up-prep-portal.git
+cd up-prep-portal
+
+
 <img width="1366" height="768" alt="Screenshot (151)" src="https://github.com/user-attachments/assets/adb1943a-6050-44b3-a74c-b79b96ccdf17" />
 <img width="1366" height="768" alt="Screenshot (164)" src="https://github.com/user-attachments/assets/88dd7218-9f84-4ec8-98f1-ff788db9e3ec" />
 <img width="1366" height="768" alt="Screenshot (163)" src="https://github.com/user-attachments/assets/af22d635-05d8-4884-af22-afa0fecc2d8b" />
