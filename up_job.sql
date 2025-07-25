@@ -205,7 +205,7 @@ CREATE TABLE `youtube_api` (
 --
 
 INSERT INTO `youtube_api` (`id`, `api`) VALUES
-(1, 'AIzaSyDL8cMAG1gj1BHInmEP6KZzdKnxYdrCrRY');
+(1, '');
 
 -- --------------------------------------------------------
 
